@@ -1,0 +1,12 @@
+#ai-comment-btn {
+  order: -1;
+  margin-right: 8px !important;
+  background-color: #006699;
+  color: white;
+  border-radius: 16px;
+  padding: 4px 12px;
+}
+
+#ai-comment-btn:hover {
+  background-color: #004d73;
+}
