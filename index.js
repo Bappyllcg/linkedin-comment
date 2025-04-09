@@ -18,7 +18,7 @@
 
 export default {
     async fetch(request, ctx) {
-      const apiKey = 'AIzaSyCJ-mt46PxHgr4QEAKmmS7uQFGK1ubWsTU'; // Secure way: from wrangler.toml
+      const apiKey = 'api_key'; // Secure way: from wrangler.toml
       const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
   
       // Handle only POST requests
